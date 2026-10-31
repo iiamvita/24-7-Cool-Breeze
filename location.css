@@ -1,0 +1,102 @@
+.location-section {
+  background: var(--primary-navy);
+  color: var(--white);
+  text-align: center;
+}
+
+.location-section h2 {
+  color: var(--white);
+}
+
+.location-section p {
+  color: #CBD5E1;
+  max-width: 550px;
+  margin: 0 auto 30px auto;
+}
+
+.location-form {
+  max-width: 480px;
+  margin: 0 auto;
+  background: var(--white);
+  color: var(--text-dark);
+  padding: 35px 30px;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--primary-navy);
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #CBD5E1;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.form-group input:focus {
+  border-color: var(--secondary-cyan);
+}
+
+.pin-btn {
+  width: 100%;
+  background: var(--bg-ice);
+  color: var(--primary-navy);
+  border: 1px dashed var(--secondary-cyan);
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.pin-btn:hover {
+  background: #D0E3EC;
+}
+
+.submit-btn {
+  width: 100%;
+  background: #25D366; /* WhatsApp Green */
+  color: var(--white);
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.submit-btn:hover {
+  background: #1EBE5D;
+}
+
+.location-status {
+  font-size: 0.85rem;
+  margin-bottom: 15px;
+  color: var(--accent-mint);
+  font-weight: 600;
+  text-align: center;
+}

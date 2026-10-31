@@ -1,0 +1,28 @@
+<section id="location" class="location-section">
+    <div class="container">
+        <h2>Pin Your Location & Request Service</h2>
+        <p>Send your exact location via Google Maps pin and phone number for quick dispatch anywhere in Trinidad.</p>
+
+        <form id="location-form" class="location-form">
+            <div class="form-group">
+                <label for="client-name">Your Name</label>
+                <input type="text" id="client-name" placeholder="e.g. John Doe" required>
+            </div>
+
+            <div class="form-group">
+                <label for="client-phone">Phone / WhatsApp Number</label>
+                <input type="tel" id="client-phone" placeholder="e.g. 868-123-4567" required>
+            </div>
+
+            <button type="button" id="pin-location-btn" class="pin-btn">
+                <i class="fa-solid fa-location-crosshairs"></i> Get Google Maps Location Pin
+            </button>
+
+            <div id="location-status" class="location-status"></div>
+
+            <button type="submit" class="submit-btn">
+                <i class="fa-brands fa-whatsapp"></i> Send Booking via WhatsApp
+            </button>
+        </form>
+    </div>
+</section>
